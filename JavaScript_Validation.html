@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible content=IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Document</title>
+    <script src="JavaScript_Validation.js"></script>
+</head>
+<body>
+    <form>
+        Name:<input type="text" name="name" id="name" required><br><br>
+        Email:<input type="text" name="email" id="email"required><br><br>
+        MobileNo:<input type="text" name="mobileno" id="mobileno" required><br><br>
+        <input type="button" value="Register" onclick="Validation()"><br></br>
+    </form>
+
+    <!--internal Validation
+        <script>
+        function Validation()
+        {
+            var mobileno=document.getElementById("mobileno").value
+            if(mobileno.length==10)
+            {
+                alert('vaild MobileNo');
+            }
+            else
+            {
+                alert('MobileNo must be 10 digits')
+            }
+        }
+    </script>-->
+</body>
+</html>
