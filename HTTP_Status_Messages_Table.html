@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTTP STATUS MESSAGES</title>
+    <style>
+        body{
+            background-color:rgba(248, 196, 100, 0.804);
+        }
+        h1{
+
+            margin-left: 30%;
+        }
+        span{
+            color: red;
+        }
+        .circle{
+            width: 80px;
+            height: 80px;
+            background-color:rgb(250, 193, 60);
+            border:4px solid orange;
+            border-radius: 53px/53px;
+        }
+        .colm ul{
+            overflow: hidden;
+            transform:translateX(17%) ;
+            /* margin-inline-end: 80px; */
+
+        }
+        .colm ul li{
+            margin-top: 10px;
+            float:left;
+            list-style: none;
+            margin-inline-end: 80px;
+        }
+        .colm ul li p{
+            font-size: 25px;
+            text-align: center;
+            font-weight: bold;
+            /* margin-inline-end: 80px; */
+        }
+
+
+        .one ul{
+            overflow: hidden;
+            transform: translateX(17%);
+
+        }
+        .one ul li{
+            list-style: none;
+            float: left;
+            /*margin-inline-end: 48%;*/
+            float:inherit;
+
+
+        }
+        .one ul li p{
+                font-size: 28px;
+                text-align: center;
+                font-weight: bold;
+               float: left;
+               margin-inline-end: 15px;
+
+            }
+
+        .table ul{
+               overflow: hidden;
+               transform:translateX(13%) ;
+               /* list-style: none; */
+            }
+        .table ul li{
+             list-style: none;
+             float: left;
+             border:3px solid orange;
+             margin-inline-end: 40px;
+             background-color:rgb(255, 179, 0) ;
+             border-radius: 20px;
+            }
+            .table ul li p{
+                width: 250px;
+                text-align: justify;
+                margin-left: 10px;
+                font-weight: bolder;
+           }
+    </style>
+</head>
+<body>
+    <h1><span>HTTP STATUS</span> MESSAGES</h1>
+    <div class="colm">
+        <ul>
+            <li>
+                <div class="circle"><p style="color: black;">1xx</p></div>
+            </li>
+            <li>
+                <div class="circle"><p style="color: darkblue;">2xx</p></div>
+            </li>
+            <li>
+                <div class="circle"><p style="color: brown;">3xx</p></div>
+            </li>
+            <li>
+                <div class="circle"><p style="color: green;">4xx</p></div>
+            </li>
+            <li>
+                <div class="circle"><p style="color:rgb(49, 37, 4);">5xx</p></div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="one">
+        <ul>
+            <li><p style="color: black;">Information</p></li>
+            <li><p style="color: blue;">Sucessful</p></li>
+            <li><p style="color: brown;">Redirection</p></li>
+            <li><p style="color: green;">Client Error</p></li>
+            <li><p style="color: rgb(49, 37, 4);">Server Error</p></li>
+        </ul>
+
+    </div>
+
+    <div class="table">
+        <ul>
+            <li><p><span style="font-weight: bolder;">100</span>  Continue</p></li>
+            <li><p><span style="font-weight: bolder;">101</span>  Switching</p></li>
+            <li><p><span style="font-weight: bolder;">103</span>  Checkpoint</p></li>
+        </ul>
+    </div>
+
+    <div class="table">
+        <ul>
+            <li><p><span style="font-weight: bolder;">200</span>  OK</p></li>
+            <li><p><span style="font-weight: bolder;">201</span>  Created</p></li>
+            <li><p><span style="font-weight: bolder;">202</span>  Accepted</p></li>
+        </ul>
+    </div>
+
+    <div class="table">
+        <ul>
+            <li><p><span style="font-weight: bolder;">302</span>  Found</p></li>
+            <li><p><span style="font-weight: bolder;">303</span>  See Other</p></li>
+            <li><p><span style="font-weight: bolder;">304</span>  Not Modified</p></li>
+        </ul>
+    </div>
+
+    <div class="table">
+        <ul>
+            <li><p><span style="font-weight: bolder;">306</span>  Switch Proxy</p></li>
+            <li><p><span style="font-weight: bolder;">307</span>  Temp Redirect</p></li>
+            <li><p><span style="font-weight: bolder;">400</span>  Bad Request</p></li>
+        </ul>
+    </div>
+
+    <div class="table">
+        <ul>
+            <li><p><span style="font-weight: bolder;">401</span>  Unauthorized</p></li>
+            <li><p><span style="font-weight: bolder;">402</span>  Payment Req</p></li>
+            <li><p><span style="font-weight: bolder;">403</span>  Forbidden</p></li>
+        </ul>
+    </div>
+
+    <div class="table">
+        <ul>
+            <li><p><span style="font-weight: bolder;">404</span>  Not Found</p></li>
+            <li><p><span style="font-weight: bolder;">406</span>  Not Acceptable</p></li>
+            <li><p><span style="font-weight: bolder;">410</span>  Gone</p></li>
+        </ul>
+    </div>
+
+    <div class="table">
+        <ul>
+            <li><p><span style="font-weight: bolder;">500</span>Server Error</p></li>
+            <li><p><span style="font-weight: bolder;">502</span>Bad Gateway</p></li>
+            <li><p><span style="font-weight: bolder;">504</span>Timeout</p></li>
+        </ul>
+    </div>
+</body>
+</html>
